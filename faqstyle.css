@@ -35,8 +35,8 @@
 	 height: 40px ;
   	width: 300px;
 	position: relative;
-	Border: 3px solid rgba(200,0,26,1.00);
-	background-color: #ff0022;
+	Border: 3px solid #cf1d1d;
+	background-color: #ff2525;
 	transition: ease-out .2s;
 	color: white;
 	z-index: 1;
