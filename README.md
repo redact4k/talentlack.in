@@ -1,6 +1,6 @@
 <p align="center">
-<a href="https://imunnamed.github.io/lackintest/"> 
-	<img src="https://github.com/imunnamed/lackintest/blob/main/images/tlacking1.png?raw=true" style="cursor:pointer">
+<a href="https://imunnamed.github.io/talentlack.in/"> 
+	<img src="https://github.com/imunnamed/talentlack.in/blob/main/images/tlacking1.png?raw=true" style="cursor:pointer">
 </a>
 	
 </p>
