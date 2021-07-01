@@ -1,0 +1,158 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
+.logoheader {
+	position: relative;
+	text-align: center;
+	top: -50;
+	animation: logoease 1s 1 normal ease-out;
+}
+
+.footer {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	position: fixed;
+	text-align: center;
+	bottom: 5px;
+	width: 100%;
+	color: black;
+	animation: fadein 1s 1 normal ease-out;
+}
+
+.button {
+	font-family: 'Manrope', sans-serif;
+	font-size: 20px;
+	opacity: 0;
+	border-radius: 8px; 
+	text-align: center;
+	 /* padding: 10px 50px; */
+	cursor: pointer;
+	 height: 40px ;
+  	width: 300px;
+	position: relative;
+	Border: 3px solid rgba(200,0,26,1.00);
+	background-color: #ff0022;
+	transition: ease-out .2s;
+	color: white;
+	z-index: 1;
+	top: 50;
+	background-size: 65%;
+	animation: fadein 1s 1 normal ease-out forwards;
+	animation-delay: .5s;
+}
+
+.button:hover {
+	background-color: rgba(128,0,17,1.00);
+	color: (0,0,140);
+	Border: 3px solid rgba(128,0,17,1.00);
+}
+
+/*
+
+ 
+.button1:before {
+	transition: 0.5s all ease;
+	position: absolute;
+	transform-origin: top;
+	top: 0;
+	left: 50%;
+	right: 50%;
+	bottom: 0;
+	opacity: 0;
+	content: "";
+	background: #1DA0F1;
+	z-index: -1;
+}
+.button1:hover:before {
+	-webkit-transition: .5s all ease;
+	-o-transition: .5s all ease;
+	transition: 0.5s all ease;
+	left: 0;
+	right: 0;
+	opacity: 1;
+	z-index: -1;
+
+}
+
+*/
+
+h1 {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: black;
+	font-size: 32px;
+	animation: fadein 1s 1 normal ease-out forwards;
+	animation-delay: .5s;
+	opacity: 0;
+}
+p {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 21px;
+	animation: fadein 1s 1 normal ease-out forwards;
+	animation-delay: .5s;
+	opacity: 0;
+}
+p1 {
+	color: white;
+	font-family: 'Dosis', sans-serif;
+	font-size: 21px;
+	animation: fadein 1s 1 normal ease-out forwards;
+	animation-delay: .5s;
+	opacity: 0;
+}
+a {
+	color: white;
+
+}
+/* breathe effect */
+html
+{
+	background-color: rgb(124,65,57);
+
+	animation: 5s infinite alternate ease-out breathing-color;
+	
+}
+
+@keyframes breathing-color {
+	from {
+		background-color: rgb(214,65,57);
+	} to {
+		background-color: rgb(255,150,74);
+	}
+}
+
+@keyframes breathing-color-opposite {
+	from {
+		color: rgb(255,150,74);
+	} to {
+		color: rgb(214,65,57);
+	}
+}
+
+/* logo animation for when you load the page */
+@keyframes logoease {
+    0% {
+        top:-100px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+
+@keyframes fadein {
+	from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes fadeout {
+	from { opacity: 1; }
+    to   { opacity: 0; }
+}
+
